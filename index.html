@@ -759,7 +759,7 @@ section {
 
   // Add text to the results div
   var addTextToResults = function(textToAdd){
-    document.getElementById('terminalReslutsCont').innerHTML += "<p>" + textToAdd + "</p>";
+    document.getElementById('terminalReslutsCont').innerHTML += "<p><span>" + textToAdd + "<span></p>";
     scrollToBottomOfResults();
   }
 
@@ -776,7 +776,7 @@ section {
       "- 'ironman' will make you happy",
       "- 'cat videos' will make you even happier",
       "* There are more keywords that you have to discover by yourself."
-    ].join('<br>');
+    ].join('\n');
     addTextToResults(helpKeyWords);
   }
 
