@@ -1,0 +1,502 @@
+
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,700);
+
+$dark: #1f2426;
+$gray: #4b5859;
+$blueGray: #293e41;
+$lightestBlue: #b4dad7;
+$lightBlue: #519ca4;
+$blue: #2196a7;
+$darkBlue: #307982;
+$darkestBlue: #215961;
+
+body {
+  background-color: $dark;
+  color: $lightestBlue;
+  font-family: "Bitter", Helvetica;
+}
+
+ul li {
+  padding-top: .5em; 
+}
+
+p {
+  line-height: 1.8em; 
+}
+
+h2 {
+  border: 2px solid $lightestBlue;
+  padding: .5em;
+  display: inline-block;
+}
+
+h3 {
+  line-height: .3em; 
+}
+
+header {
+  overflow: hidden;
+  
+  #twitter {
+    float: right;
+    margin-top: 45px;
+  }
+}
+
+.wrap {
+  padding: 2em;
+}
+
+section {
+  width: 950px;
+  margin: 0 auto;
+}
+
+hr {
+  border: 1px solid $lightestBlue;
+}
+
+.full-qual {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.third-qual {
+  width: 70%;
+  float: left;
+  margin-right: 5%;
+}
+
+.quarter-qual {
+  width: 25%;
+  float: left;
+}
+
+.qual {
+  margin-bottom: 40px; 
+  
+  hr {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+.data {
+  height: 200px;
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+  
+  .data-item {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    bottom: 0;
+    
+    h5 {
+      position: absolute;
+      bottom: 10px;
+      white-space: nowrap;
+      border-bottom: 2px solid     $lightestBlue;
+    }
+    
+    span {
+      position: absolute;
+      bottom: 13px;
+      border-left: 2px solid $lightestBlue; 
+    }
+  }
+}
+
+#item1 {
+  z-index: 1;
+  right: 0;
+	border-left: 400px solid transparent;
+	border-right: 400px solid transparent;
+	border-bottom: 0px solid $blue;
+}
+
+#item2 {
+  z-index: 5;
+  right: 50px;
+  border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	opacity: .5;
+	border-bottom: 0px solid $lightestBlue;
+}
+
+#item3 {
+  z-index: 5;
+  left: 60px;
+  border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 0px solid $blue;
+  
+  h5 {
+    position: absolute;
+    left: -65px;
+  }
+}
+
+#item4 {
+  z-index: 5;
+  left: 150px;
+  border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	opacity: .5;
+	border-bottom: 0px solid $lightestBlue;
+  
+  h5 {
+    position: absolute;
+    left: -65px;
+  }
+}
+
+#item5 {
+  z-index: 5;
+  left: 300px;
+  border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	opacity: .5;
+	border-bottom: 0px solid $lightestBlue;
+  
+  h5 {
+    text-align: right;
+    position: absolute;
+    left: -65px;
+    bottom: 70px;
+  }
+  
+  span {
+    line-height: 80px; 
+  }
+}
+
+#item6 {
+  z-index: 5;
+  left: 400px;
+  border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	opacity: .5;
+	border-bottom: 0px solid $lightestBlue;
+    
+  h5 {
+    position: absolute;
+    bottom: 70px;
+  }
+  
+  span {
+    line-height: 80px; 
+  }
+}
+
+#item7 {
+  z-index: 10;
+  left: 450px;
+  border-left: 125px solid transparent;
+	border-right: 125px solid transparent;
+	border-bottom: 0px solid $lightestBlue;
+    
+  h5 {
+    text-align: right;
+    position: absolute;
+    left: -67px;
+    bottom: 30px;
+  }
+  
+  span {
+    line-height: 40px; 
+  }
+}
+
+.years {
+  text-align: justify;
+  
+  .middot {
+    margin: 0 auto;
+    font-size: 58px;
+    color: $gray;
+    line-height: 20px;
+  }
+  
+  .year-list {
+    margin-top: -18px;  
+  }
+  
+  * {
+    list-style-position: outside;
+    padding: 0;
+    display: inline;
+  }
+
+  span {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 0;
+  }
+}
+
+.edu {
+  .highschool {
+    color: $gray;
+    margin-left: 1em;
+  }
+  
+  .schools {
+    position: relative;
+    height: 100px;
+    margin-bottom: .5em;
+    
+    .school-item {
+    
+      h5 {
+        position: absolute;
+        bottom: 10px;
+        white-space: nowrap;
+        border-bottom: 2px solid     $lightestBlue;
+      }
+    
+      span {
+        position: absolute;
+        bottom: 13px;
+        border-left: 2px solid $lightestBlue; 
+      }
+    }
+  }
+}
+
+#school1 {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 0; 
+	height: 0; 
+	border-left: 125px solid transparent;
+	border-right: 125px solid transparent;
+	border-bottom: 62.5px solid $blue;  
+}
+
+#school2 {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 250px;
+  width: 0; 
+	height: 0; 
+	border-left: 175px solid transparent;
+	border-right: 175px solid transparent;
+	border-bottom: 87.5px solid $lightestBlue;  
+}
+
+.hna {
+  position: relative;
+  
+  ul {
+    list-style-position: inside;
+    padding: 0;
+    color: $gray;
+    
+    ul {
+      padding-left: 1em;
+    }
+  }
+}
+
+.sknex {
+  clear: both;
+  margin-bottom: 2em;
+}
+
+.sknex {
+  overflow: hidden;
+  
+  .skills-text {
+    float: left;
+    width: 28%;
+    margin-right: 2%;
+    color: $gray;
+  }
+}
+.skills-vis {
+  float: left;
+  width: 70%;
+}
+
+#skill1 {
+  width: 45%;
+  margin-right: 5%;
+  float: left;
+  
+  #puters .pie {
+    background-color: $lightestBlue;
+    -webkit-transform:rotate(80deg);
+    -moz-transform:rotate(80deg);
+    -o-transform:rotate(80deg);
+    transform:rotate(80deg);
+  }
+  
+  #puters4 {
+    background-color: $darkestBlue;
+    -webkit-transform:rotate(210deg);
+    -moz-transform:rotate(210deg);
+    -o-transform:rotate(210deg);
+    transform:rotate(210deg);
+  }
+  
+  #movies {
+    background-color: $darkBlue;
+    -webkit-transform:rotate(170deg);
+    -moz-transform:rotate(170deg);
+    -o-transform:rotate(170deg);
+    transform:rotate(170deg);
+  }
+  
+  #games {
+    background-color: $blue;
+    -webkit-transform:rotate(160deg);
+    -moz-transform:rotate(160deg);
+    -o-transform:rotate(160deg);
+    transform:rotate(160deg);
+  }
+  
+  #music {
+    background-color: $lightBlue;
+    -webkit-transform:rotate(110deg);
+    -moz-transform:rotate(110deg);
+    -o-transform:rotate(110deg);
+    transform:rotate(110deg);
+  }
+  
+  #music2 {
+    background-color: $lightBlue;
+    -webkit-transform:rotate(80deg);
+    -moz-transform:rotate(80deg);
+    -o-transform:rotate(80deg);
+    transform:rotate(80deg);
+  }
+  
+}
+
+#skill2 {
+  width: 45%;
+  float: left;
+  
+  #puters .pie {
+    background-color: $lightestBlue;
+    -webkit-transform:rotate(80deg);
+    -moz-transform:rotate(80deg);
+    -o-transform:rotate(80deg);
+    transform:rotate(80deg);
+  }
+  
+  #puters4 {
+    background-color: $darkestBlue;
+    -webkit-transform:rotate(210deg);
+    -moz-transform:rotate(210deg);
+    -o-transform:rotate(210deg);
+    transform:rotate(210deg);
+  }
+  
+  #movies {
+    background-color: $darkBlue;
+    -webkit-transform:rotate(170deg);
+    -moz-transform:rotate(170deg);
+    -o-transform:rotate(170deg);
+    transform:rotate(170deg);
+  }
+  
+  #games {
+    background-color: $blue;
+    -webkit-transform:rotate(160deg);
+    -moz-transform:rotate(160deg);
+    -o-transform:rotate(160deg);
+    transform:rotate(160deg);
+  }
+  
+  #music {
+    background-color: $lightBlue;
+    -webkit-transform:rotate(110deg);
+    -moz-transform:rotate(110deg);
+    -o-transform:rotate(110deg);
+    transform:rotate(110deg);
+  }
+  
+  #music2 {
+    background-color: $lightBlue;
+    -webkit-transform:rotate(80deg);
+    -moz-transform:rotate(80deg);
+    -o-transform:rotate(80deg);
+    transform:rotate(80deg);
+  }
+  
+}
+
+.skill-breakdown {
+  overflow: hidden;
+  
+  .pie-container {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin-right: 10px;
+    float: left;
+    
+    .center {
+      position: absolute;
+      z-index: 50;
+      width: 75px;
+      height: 75px;
+      top: 25%;
+      left: 25%;
+      background-color: $dark;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%;
+    }
+  
+    .pie-back {
+      background-color: $dark;
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%;
+    }   
+  
+    .pie {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%;
+      clip: rect(0px, 75px, 150px, 0px);
+    }
+  
+    .hold {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%;
+      clip: rect(0px, 150px, 75px, 75px);
+    }
+  }
+  
+  ul {
+    margin-left: 150px;  
+  } 
+}
+
+.pie-legend {
+   
+}
+
