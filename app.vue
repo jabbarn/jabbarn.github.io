@@ -1,11 +1,11 @@
 <template>
     <section>
   <header>
-    <h3 id="twitter">@jabbarn</h3>
-    <h1>brian phillips</h1>
+    <h1>Noman Jabbar</h1>
+
   </header>
   
-  <hr/>
+  <hr style="border-width: 2px;"/>
   
   <div class="xp qual full-qual">
     <h2>Experience</h2>
@@ -49,25 +49,44 @@
     
     <hr/>
     <div class="years">
-      
-      <ul class="middot">
-        <li>&#183;</li>
-        <li>&#183;</li>
-        <li>&#183;</li>
-        <li>&#183;</li>
-        <li>&#183;</li>
-      </ul>
-      <span></span>
-      <ul class="year-list">
-        <li>2010</li>
-        <li>2011</li>
-        <li>2012</li>
-        <li>2013</li>
-        <li>2014</li>
-      </ul>
-      
-      <span></span>
+      <div class="year-item">
+        <div class="dot">&#183;</div>
+        <div class="year">2015</div>
+      </div>
+      <div class="year-item">
+        <div class="dot">&#183;</div>
+        <div class="year">2016</div>
+      </div>
+      <div class="year-item">
+        <div class="dot">&#183;</div>
+        <div class="year">2017</div>
+      </div>
+      <div class="year-item">
+        <div class="dot">&#183;</div>
+        <div class="year">2018</div>
+      </div>
+      <div class="year-item">
+        <div class="dot">&#183;</div>
+        <div class="year">2019</div>
+      </div>
+      <div class="year-item">
+        <div class="dot">&#183;</div>
+        <div class="year">2020</div>
+      </div>
+      <div class="year-item">
+        <div class="dot">&#183;</div>
+        <div class="year">2021</div>
+      </div>
+      <div class="year-item">
+        <div class="dot">&#183;</div>
+        <div class="year">2022</div>
+      </div>
+      <div class="year-item">
+        <div class="dot">&#183;</div>
+        <div class="year">2023</div>
+      </div>
     </div>
+    <span></span>
   </div> <!-- end first qual -->
   
   <div class="edu qual third-qual">

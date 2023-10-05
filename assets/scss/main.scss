@@ -1,6 +1,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Bitter:400,700);
-
+// TODO: REFACTOR all of this
 $dark: #1f2426;
 $gray: #4b5859;
 $blueGray: #293e41;
@@ -210,17 +210,29 @@ hr {
 }
 
 .years {
-  text-align: justify;
-  
-  .middot {
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .year-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .dot {
     font-size: 58px;
     color: $gray;
     line-height: 20px;
+    }
+
   }
   
   .year-list {
-    margin-top: -18px;  
+    margin-top: -18px;
+    margin: 0 auto;
+    color: $gray;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-between;
   }
   
   * {
