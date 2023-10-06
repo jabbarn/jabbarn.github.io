@@ -24,13 +24,13 @@ p {
   line-height: 1.8em; 
 }
 
-h2 {
+.box {
   border: 2px solid $lightestBlue;
   padding: .5em;
   display: inline-block;
 }
 
-h3 {
+h3.line {
   line-height: .3em; 
 }
 
@@ -282,7 +282,7 @@ hr {
 }
 
 .edu {
-  .highschool {
+  .uni {
     color: $gray;
     margin-left: 1em;
   }

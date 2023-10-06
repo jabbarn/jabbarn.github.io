@@ -8,7 +8,7 @@
   <hr style="border-width: 2px;"/>
   
   <div class="xp qual full-qual">
-    <h2>Experience</h2>
+    <h2 class="box">Experience</h2>
     
     <div class="data">
       <div class="data-item" id="item1">
@@ -94,9 +94,9 @@
   </div> <!-- end first qual -->
   
   <div class="edu qual third-qual">
-    <h2>Education</h2>
-    <span class="highschool">
-       A Really Cool Place - Grad 2006
+    <h2 class="box">Education</h2>
+    <span class="uni">
+      Amsterdam University of Applied Sciences - Graduated 2023
     </span>
 
     <div class="wrap">    
@@ -115,28 +115,61 @@
       </div>
       
       <hr/>
-      <div class="years"> 
-        <ul class="middot">
-          <li>&#183;</li>
-          <li>&#183;</li>
-          <li>&#183;</li>
-          <li>&#183;</li>
-          <li>&#183;</li>
-        </ul>
-        <span></span>
-        <ul>
-          <li>2006</li>
-          <li>2008</li>
-          <li>2010</li>
-        </ul>
-      
-        <span></span>
+      <div class="years">
+        <div class="year-item">
+          <div class="dot">&#183;</div>
+          <div class="year">2012</div>
+        </div>
+        <div class="year-item">
+          <div class="dot">&#183;</div>
+          <div class="year">2013</div>
+        </div>
+        <div class="year-item">
+          <div class="dot">&#183;</div>
+          <div class="year">2014</div>
+        </div>
+        <div class="year-item">
+          <div class="dot">&#183;</div>
+          <div class="year">2015</div>
+        </div>
+        <div class="year-item">
+          <div class="dot">&#183;</div>
+          <div class="year">2016</div>
+        </div>
+        <div class="year-item">
+          <div class="dot">&#183;</div>
+          <div class="year">2017</div>
+        </div>
+        <div class="year-item">
+          <div class="dot">&#183;</div>
+          <div class="year">2018</div>
+        </div>
+        <div class="year-item">
+          <div class="dot">&#183;</div>
+          <div class="year">2019</div>
+        </div>
+        <div class="year-item">
+          <div class="dot">&#183;</div>
+          <div class="year">2020</div>
+        </div>
+        <div class="year-item">
+          <div class="dot">&#183;</div>
+          <div class="year">2021</div>
+        </div>
+        <div class="year-item">
+          <div class="dot">&#183;</div>
+          <div class="year">2022</div>
+        </div>
+        <div class="year-item">
+          <div class="dot">&#183;</div>
+          <div class="year">2023</div>
+        </div>
       </div>
     </div>
   </div>
   
   <div class="hna qual quarter-qual">
-    <h2>Awards &amp; Honors</h2>
+    <h3 class="box">Hobbies &amp; Interests</h3>
       <ul>
         <li>Here's something cool I did
           <ul>
@@ -150,7 +183,7 @@
   </div>
     
   <div class="sknex">
-    <h2>Skills &amp; Expertise</h2>
+    <h2 class="box">Skills &amp; Expertise</h2>
     <br/>
     <div class="skills-text">
       <br/>
@@ -167,7 +200,7 @@
     
     <div class="skills-vis">
       <div id="skill1">
-        <h3>Adobe Software</h3>
+        <h3 class="line">Adobe Software</h3>
         <hr/>
         <br/>
         <div class="skill-breakdown">
@@ -195,7 +228,7 @@
       </div>
       
       <div id="skill2">
-        <h3>Tech</h3>
+        <h3 class="line">Tech</h3>
         <hr/>
         <br/>
         
