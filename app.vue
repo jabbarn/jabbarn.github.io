@@ -11,39 +11,39 @@
     <h2>Experience</h2>
     
     <div class="data">
-      <div class="up-arrow data-item" id="item1">
-        <h5>Awesome Place</h5>
-        <span>&nbsp;</span>
+      <div class="data-item" id="item1">
+        <h5>Store Employee<br><span>Zeeman</span></h5>
+        <span class="symbol">&nbsp;</span>
       </div>
       
       <div class="data-item" id="item2">
-        <h5>Awesome Creation</h5>
-        <span>&nbsp;</span>
+        <h5>Store Employee<br><span>Marqt</span></h5>
+        <span class="symbol">&nbsp;</span>
       </div>
       
       <div class="data-item" id="item3">
-        <h5>Cool Place</h5>
-        <span>&nbsp;</span>
+        <h5>Intern Frontend Developer<br><span>ItsaVirus</span></h5>
+        <span class="symbol">&nbsp;</span>
       </div>
       
       <div class="data-item" id="item4">
-        <h5>Cool Place</h5>
-        <span>&nbsp;</span>
+        <h5>Intern Fullstack Developer<br><span>Aldewereld Consultancy</span></h5>
+        <span class="symbol">&nbsp;</span>
       </div>
       
       <div class="data-item" id="item5">
-        <h5>Cool Place</h5>
-        <span>&nbsp;</span>
+        <h5>Intern Blockchain Developer <br><span>Effect Network</span></h5>
+        <span class="symbol">&nbsp;</span>
       </div>
       
       <div class="data-item" id="item6">
-        <h5>Cool Place</h5>
-        <span>&nbsp;</span>
+        <h5>Intern BI Specialist<br><span>Zeeman</span></h5>
+        <span class="symbol">&nbsp;</span>
       </div>
       
-      <div class="data-item" id="item7">
-        <h5>Major Cool<br/>Place</h5>
-        <span>&nbsp;</span>
+      <div class="highlighted data-item" id="item7">
+        <h5> Store Employee<br><span>Zeeman</span></h5>
+        <span class="symbol">&nbsp;</span>
       </div>
     </div>
     
@@ -84,6 +84,10 @@
       <div class="year-item">
         <div class="dot">&#183;</div>
         <div class="year">2023</div>
+      </div>
+      <div class="year-item">
+        <div class="dot">&#183;</div>
+        <div class="year">2024</div>
       </div>
     </div>
     <span></span>

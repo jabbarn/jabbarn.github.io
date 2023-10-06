@@ -73,7 +73,7 @@ hr {
 }
 
 .qual {
-  margin-bottom: 40px; 
+  margin: 40px 0;
   
   hr {
     margin: 0 auto;
@@ -87,20 +87,32 @@ hr {
   width: 100%;
   margin-bottom: 10px;
   
+
   .data-item {
     position: absolute;
     width: 0; 
     height: 0; 
     bottom: 0;
-    
+    border-left-style:  solid;
+    border-left-color: transparent;
+    border-right-style: solid;
+	  border-right-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-color: $lightestBlue;
+    ;
+
+    &.highlighted {
+      border-bottom-color: $blue;
+    }
+
     h5 {
       position: absolute;
       bottom: 10px;
       white-space: nowrap;
-      border-bottom: 2px solid     $lightestBlue;
+      border-bottom: 2px solid $lightestBlue;
     }
     
-    span {
+    span.symbol {
       position: absolute;
       bottom: 13px;
       border-left: 2px solid $lightestBlue; 
@@ -110,101 +122,121 @@ hr {
 
 #item1 {
   z-index: 1;
-  right: 0;
-	border-left: 400px solid transparent;
-	border-right: 400px solid transparent;
-	border-bottom: 0px solid $blue;
+  left: 55px;
+  opacity: .5;
+	border-left-width: 65px;
+	border-right-width: 65px;
+	border-bottom-width: 50px;
+  
+  h5 {
+    position: absolute;
+    text-align: right;
+    right: 0;
+  }
 }
 
 #item2 {
   z-index: 5;
-  right: 50px;
-  border-left: 100px solid transparent;
-	border-right: 100px solid transparent;
+  left: 195px;
+  border-left-width: 30px;
+	border-right-width: 30px;
 	opacity: .5;
-	border-bottom: 0px solid $lightestBlue;
+	border-bottom-width: 30px;
+
+  h5 {
+    left: -97px;
+    text-align: right;
+  }
 }
 
 #item3 {
-  z-index: 5;
-  left: 60px;
-  border-left: 30px solid transparent;
-	border-right: 30px solid transparent;
-	border-bottom: 0px solid $blue;
-  
+  z-index: 11;
+  left: 280px;
+  border-left-width: 25px;
+	border-right-width: 25px;
+	border-bottom-width: 60px;
+
   h5 {
+    text-align: right;
     position: absolute;
-    left: -65px;
+    left: -166px;
+    bottom: 30px;
+  }
+  
+  span.symbol {
+    line-height: 40px; 
   }
 }
 
 #item4 {
-  z-index: 5;
-  left: 150px;
-  border-left: 75px solid transparent;
-	border-right: 75px solid transparent;
-	opacity: .5;
-	border-bottom: 0px solid $lightestBlue;
+  z-index: 11;
+  left: 430px;
+  border-left-width: 25px;
+	border-right-width: 25px;
+	border-bottom-width: 20px;
   
   h5 {
     position: absolute;
-    left: -65px;
+    right: 0px;
+    bottom: 110px
+  }
+  span.symbol {
+    line-height: 120px; 
   }
 }
 
 #item5 {
-  z-index: 5;
-  left: 300px;
-  border-left: 75px solid transparent;
-	border-right: 75px solid transparent;
-	opacity: .5;
-	border-bottom: 0px solid $lightestBlue;
+  z-index: 11;
+  left: 685px;
+  border-left-width: 25px;
+	border-right-width: 25px;
+	border-bottom-width: 20px;
   
   h5 {
-    text-align: right;
     position: absolute;
-    left: -65px;
-    bottom: 70px;
+    right: 0;
+    bottom: 30px;
   }
   
-  span {
-    line-height: 80px; 
+  span.symbol {
+    line-height: 40px; 
   }
 }
 
 #item6 {
-  z-index: 5;
-  left: 400px;
-  border-left: 200px solid transparent;
-	border-right: 200px solid transparent;
-	opacity: .5;
-	border-bottom: 0px solid $lightestBlue;
+  z-index: 11;
+  left: 840px;
+  border-left-width: 25px;
+	border-right-width: 25px;
+	border-bottom-width: 20px;
     
   h5 {
+    text-align: right;
     position: absolute;
-    bottom: 70px;
+    right: 0;
+    bottom: 90px;
   }
   
-  span {
-    line-height: 80px; 
+  span.symbol {
+    line-height: 100px; 
   }
 }
 
 #item7 {
   z-index: 10;
-  left: 450px;
-  border-left: 125px solid transparent;
-	border-right: 125px solid transparent;
-	border-bottom: 0px solid $lightestBlue;
+  left: 360px;
+  opacity: .7;
+  border-left-width: 290px;
+	border-right-width: 290px;
+  border-bottom-width: 220px;
     
   h5 {
     text-align: right;
     position: absolute;
-    left: -67px;
     bottom: 30px;
   }
   
-  span {
+  span.symbol {
     line-height: 40px; 
   }
 }
