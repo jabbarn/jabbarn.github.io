@@ -104,13 +104,17 @@
       
       <div class="schools">
         <div class="up-arrow school-item" id="school1">
-          <h5>Awesome School</h5>
-          <span>&nbsp;</span>
+          <h5>Sweelinck College<br><span>VMBO-T</span></h5>
+          <span class="symbol">&nbsp;</span>
+        </div>
+        <div class="up-arrow school-item" id="school2">
+          <h5>ROCvA Zuidoost<br><span>MBO-ICT</span></h5>
+          <span class="symbol">&nbsp;</span>
         </div>
         
-        <div class="up-arrow school-item" id="school2">
-          <h5>Awesomer School</h5>
-          <span>&nbsp;</span>
+        <div class="up-arrow school-item" id="school3">
+          <h5>AUAS<br><span>HBO-ICT SE</span></h5>
+          <span class="symbol">&nbsp;</span>
         </div>
       </div>
       

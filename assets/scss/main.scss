@@ -81,6 +81,12 @@ hr {
   }
 }
 
+span.symbol {
+  position: absolute;
+  bottom: 13px;
+  border-left: 2px solid $lightestBlue; 
+}
+
 .data {
   height: 200px;
   position: relative;
@@ -110,12 +116,6 @@ hr {
       bottom: 10px;
       white-space: nowrap;
       border-bottom: 2px solid $lightestBlue;
-    }
-    
-    span.symbol {
-      position: absolute;
-      bottom: 13px;
-      border-left: 2px solid $lightestBlue; 
     }
   }
 }
@@ -283,7 +283,6 @@ hr {
 
 .edu {
   .uni {
-    color: $gray;
     margin-left: 1em;
   }
   
@@ -293,45 +292,46 @@ hr {
     margin-bottom: .5em;
     
     .school-item {
-    
+      position: absolute;
+      z-index: 1;
+      bottom: 0;
+      left: 0;
+      width: 0; 
+      height: 0; 
+      border-left: 0 solid transparent;
+      border-right: 0 solid transparent;
+      border-bottom: 0 solid transparent; 
+
       h5 {
         position: absolute;
         bottom: 10px;
         white-space: nowrap;
-        border-bottom: 2px solid     $lightestBlue;
-      }
-    
-      span {
-        position: absolute;
-        bottom: 13px;
-        border-left: 2px solid $lightestBlue; 
+        border-bottom: 2px solid $lightestBlue;
       }
     }
   }
 }
 
 #school1 {
-  position: absolute;
-  z-index: 1;
-  bottom: 0;
-  left: 0;
-  width: 0; 
-	height: 0; 
-	border-left: 125px solid transparent;
-	border-right: 125px solid transparent;
-	border-bottom: 62.5px solid $blue;  
+  left: 20px;
+  opacity: .5;
+	border-left-width: 100px;
+	border-right-width: 100px;
+	border-bottom: 30px solid $lightestBlue;  
 }
 
 #school2 {
-  position: absolute;
-  z-index: 1;
-  bottom: 0;
-  left: 250px;
-  width: 0; 
-	height: 0; 
-	border-left: 175px solid transparent;
-	border-right: 175px solid transparent;
-	border-bottom: 87.5px solid $lightestBlue;  
+  left: 225px;
+	border-left-width: 75px;
+	border-right-width: 75px;
+	border-bottom: 60px solid $lightestBlue;  
+}
+
+#school3 {
+  left: 380px;
+	border-left-width: 100px;
+	border-right-width: 100px;
+	border-bottom: 90px solid $blue;  
 }
 
 .hna {
@@ -539,8 +539,3 @@ hr {
     margin-left: 150px;  
   } 
 }
-
-.pie-legend {
-   
-}
-
