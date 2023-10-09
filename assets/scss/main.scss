@@ -477,6 +477,41 @@ span.symbol {
   
 }
 
+div.skills {
+  float: left;
+
+  section.skill {
+    overflow: auto;
+    margin-bottom: 0;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    p.skill-text {
+      float: left;
+      max-width: 50%;
+      margin: 0;
+      word-break: break-word;
+  
+    }
+    
+    span.blob {
+      display: block;
+        width: 15px;
+        height: 15px;
+        background: $gray;
+        border-radius: 15px;
+        float: right;
+        margin: 0 1px;
+        
+        &.filled {
+          background: $blue;
+        }
+    }
+  }  
+}
+
 .skill-breakdown {
   overflow: hidden;
   

@@ -175,34 +175,85 @@
   <div class="hna qual quarter-qual">
     <h3 class="box">Hobbies &amp; Interests</h3>
       <ul>
-        <li>Here's something cool I did
+        <li> Spare time programming
           <ul>
-            <li>Here's a bit more info</li>
-            <li>...And a bit more</li>
+            <li>Fabric Minecraft Mods</li>
+            <li>Discord Bots</li>
           </ul>
         </li>
         <br/>
-        <li>I also did this</li>
+        <li>Reading</li>
+        <li>Watching shows</li>
       </ul>
   </div>
     
   <div class="sknex">
     <h2 class="box">Skills &amp; Expertise</h2>
     <br/>
-    <div class="skills-text">
-      <br/>
-      <p>
-        Here's a basic explaination of the cool things that I can do, including:
-      </p>
-      
-      <ul>
-        <li>Make cool stuff</li>
-        <li>Make more cool stuff</li>
-        <li>That's all</li>
-      </ul>
+    <div class="skills">
+      <section class="skill">
+        <p class="skill-text">HTML</p>
+        <div class="blobs">
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+        </div>
+      </section>
+      <section class="skill">
+        <p class="skill-text">CSS</p>
+        <div class="blobs">
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+        </div>
+      </section>
+      <section class="skill">
+        <p class="skill-text">Javascript</p>
+        <div class="blobs">
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+        </div>
+      </section>
+      <section class="skill">
+        <p class="skill-text">Java</p>
+        <div class="blobs">
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+        </div>
+      </section>
+      <section class="skill">
+        <p class="skill-text">PHP</p>
+        <div class="blobs">
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+        </div>
+      </section>
+      <section class="skill">
+        <p class="skill-text">Clojure</p>
+        <div class="blobs">
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+        </div>
+      </section>
     </div>
-    
-    <div class="skills-vis">
+
+    <!-- <div class="skills-vis">
       <div id="skill1">
         <h3 class="line">Adobe Software</h3>
         <hr/>
@@ -259,7 +310,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 
 </section>
