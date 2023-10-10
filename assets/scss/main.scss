@@ -24,6 +24,12 @@ p {
   line-height: 1.8em; 
 }
 
+img.avatar {
+  width: 350px;
+  float: right;
+  border-radius: 10px;
+}  
+
 .box {
   border: 2px solid $lightestBlue;
   padding: .5em;
@@ -36,11 +42,7 @@ h3.line {
 
 header {
   overflow: hidden;
-  
-  #twitter {
-    float: right;
-    margin-top: 45px;
-  }
+  margin-top: 20px;
 }
 
 .wrap {
@@ -476,28 +478,32 @@ span.symbol {
   }
   
 }
+div.skills-container {
+  display: flex;
+  justify-content: space-between;
 
-div.skills {
+  div.skills {
   float: left;
 
-  section.skill {
-    overflow: auto;
-    margin-bottom: 0;
-    width: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  
-    p.skill-text {
-      float: left;
-      max-width: 50%;
-      margin: 0;
-      word-break: break-word;
-  
-    }
+    section.skill {
+      overflow: auto;
+      margin-bottom: 0;
+      width: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     
-    span.blob {
-      display: block;
+      p.skill-text {
+        float: left;
+        max-width: 50%;
+        margin: 0;
+        word-break: break-word;
+    
+      }
+
+      span.blob {
+        print-color-adjust: exact;
+        display: block;
         width: 15px;
         height: 15px;
         background: $gray;
@@ -508,8 +514,9 @@ div.skills {
         &.filled {
           background: $blue;
         }
-    }
-  }  
+      }
+    }  
+  }
 }
 
 .skill-breakdown {

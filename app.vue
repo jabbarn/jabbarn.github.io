@@ -2,11 +2,19 @@
     <section>
   <header>
     <h1>Noman Jabbar</h1>
-
   </header>
   
   <hr style="border-width: 2px;"/>
   
+  <div class="profile qual full-qual">
+    <h2 class="box">Profile</h2>
+    <img class="avatar" src="me.jpg" alt="picture of the author.">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae ab quasi placeat autem a, officia sapiente officiis cumque dignissimos eligendi error sed iure veniam qui, mollitia doloremque recusandae unde rem.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aliquid saepe nam ipsum molestias, nostrum incidunt atque iste itaque error deserunt cumque impedit optio. Placeat voluptatibus in nam ipsa perspiciatis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus impedit explicabo ut, cumque autem quae velit ipsum vel quisquam libero reiciendis enim, eius tempore dolor sed neque hic minima laborum.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et facere neque ab est quo. Dolor ipsum voluptatibus nam accusantium omnis. Cum provident animi, amet alias atque repellendus earum? At, quod.</p>
+  </div>
+
   <div class="xp qual full-qual">
     <h2 class="box">Experience</h2>
     
@@ -190,9 +198,12 @@
   <div class="sknex">
     <h2 class="box">Skills &amp; Expertise</h2>
     <br/>
-    <div class="skills">
-      <section class="skill">
-        <p class="skill-text">HTML</p>
+    <div class="skills-container">
+      <div class="skills">
+        <h3 class="line">Software Languages</h3>
+        <hr/>
+        <section class="skill">
+        <p class="skill-text">HTML / XML</p>
         <div class="blobs">
           <span class="blob"></span>
           <span class="blob"></span>
@@ -202,7 +213,17 @@
         </div>
       </section>
       <section class="skill">
-        <p class="skill-text">CSS</p>
+        <p class="skill-text">JSON</p>
+        <div class="blobs">
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+        </div>
+      </section>
+      <section class="skill">
+        <p class="skill-text">(S)CSS / LESS</p>
         <div class="blobs">
           <span class="blob"></span>
           <span class="blob"></span>
@@ -213,6 +234,16 @@
       </section>
       <section class="skill">
         <p class="skill-text">Javascript</p>
+        <div class="blobs">
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+        </div>
+      </section>
+      <section class="skill">
+        <p class="skill-text">Typescript</p>
         <div class="blobs">
           <span class="blob"></span>
           <span class="blob"></span>
@@ -242,6 +273,16 @@
         </div>
       </section>
       <section class="skill">
+        <p class="skill-text">Python</p>
+        <div class="blobs">
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+        </div>
+      </section>
+      <section class="skill">
         <p class="skill-text">Clojure</p>
         <div class="blobs">
           <span class="blob"></span>
@@ -251,7 +292,137 @@
           <span class="blob"></span>
         </div>
       </section>
+      <section class="skill">
+        <p class="skill-text">C++</p>
+        <div class="blobs">
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+        </div>
+      </section>
     </div>
+    <div class="skills">
+      <h3 class="line">Frameworks</h3>
+        <hr/>
+      <section class="skill">
+        <p class="skill-text">Laravel</p>
+        <div class="blobs">
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+        </div>
+      </section>
+      <section class="skill">
+        <p class="skill-text">Spring</p>
+        <div class="blobs">
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+        </div>
+      </section>
+      <section class="skill">
+        <p class="skill-text">Flask</p>
+        <div class="blobs">
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+        </div>
+      </section>
+      <section class="skill">
+        <p class="skill-text">React / Next</p>
+        <div class="blobs">
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+        </div>
+      </section>
+      <section class="skill">
+        <p class="skill-text">Vue / Nuxt</p>
+        <div class="blobs">
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+        </div>
+      </section>
+      <section class="skill">
+        <p class="skill-text">Drupal</p>
+        <div class="blobs">
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+        </div>
+      </section>
+      <section class="skill">
+        <p class="skill-text">Angular</p>
+        <div class="blobs">
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+        </div>
+      </section>
+    </div>
+    <div class="skills">
+      <h3 class="line">Miscellaneous</h3>
+        <hr/>
+      <section class="skill">
+        <p class="skill-text">GIT</p>
+        <div class="blobs">
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+        </div>
+      </section>
+      <section class="skill">
+        <p class="skill-text">Powershell</p>
+        <div class="blobs">
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+        </div>
+      </section>
+      <section class="skill">
+        <p class="skill-text">bash / zsh</p>
+        <div class="blobs">
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+        </div>
+      </section>
+      <section class="skill">
+        <p class="skill-text"></p>
+        <div class="blobs">
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+          <span class="blob"></span>
+        </div>
+      </section>
+    </div>
+  </div>
+
 
     <!-- <div class="skills-vis">
       <div id="skill1">
