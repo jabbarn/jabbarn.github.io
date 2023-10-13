@@ -9,10 +9,18 @@
     <div class="profile qual full-qual" id="pro">
       <h2 class="box">My Profile</h2>
       <img class="avatar" src="me.jpg" alt="picture of the author.">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae ab quasi placeat autem a, officia sapiente officiis cumque dignissimos eligendi error sed iure veniam qui, mollitia doloremque recusandae unde rem.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aliquid saepe nam ipsum molestias, nostrum incidunt atque iste itaque error deserunt cumque impedit optio. Placeat voluptatibus in nam ipsa perspiciatis?</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus impedit explicabo ut, cumque autem quae velit ipsum vel quisquam libero reiciendis enim, eius tempore dolor sed neque hic minima laborum.</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et facere neque ab est quo. Dolor ipsum voluptatibus nam accusantium omnis. Cum provident animi, amet alias atque repellendus earum? At, quod.</p>
+      <p>
+        Greetings! My name is Noman Jabbar, a dedicated {{ getAge("1999/06/17") }} year old born in Amsterdam with a deep-rooted passion for Software Engineering.
+      </p>
+      <p>
+        With 7 years of studying and 2 years of experience, I am still learning as well as improving my skills in problem solving and actively communicating. My commitment to excellence and a results-driven approach have consistently led to successful projects and positive feedback from my coworkers. Adept at frontend development, I am eager to contribute my expertise to a dynamic team and make a meaningful impact.
+      </p>
+      <p>
+        Outside of work, I actively engage in going on short walks, taking care of my parakeets and watching shows which fuel my creativity.
+      </p>
+      <p>
+        I am ready to leverage my experience and enthusiasm to excel in my next role, contributing effectively to organizational goals aswell as my own personal goals. One personal goal being to gain more experience in languages such as Rust, C++ and Clojure.
+      </p>
     </div>
 
     <div class="xp qual full-qual">
@@ -192,6 +200,7 @@
           <br/>
           <li>Reading (documentation)</li>
           <li>Watching shows</li>
+          <li>Going on short walks</li>
         </ul>
     </div>
       
@@ -375,9 +384,9 @@
           <div class="blobs">
             <span class="blob"></span>
             <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
           </div>
         </section>
         <section class="skill">
@@ -385,9 +394,9 @@
           <div class="blobs">
             <span class="blob"></span>
             <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
           </div>
         </section>
         <section class="skill">
@@ -395,9 +404,9 @@
           <div class="blobs">
             <span class="blob"></span>
             <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
           </div>
         </section>
         <section class="skill">
@@ -406,18 +415,18 @@
             <span class="blob"></span>
             <span class="blob"></span>
             <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
           </div>
         </section>
         <section class="skill">
           <p class="skill-text">Vue / Nuxt</p>
           <div class="blobs">
             <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
           </div>
         </section>
         <section class="skill">
@@ -426,8 +435,8 @@
             <span class="blob"></span>
             <span class="blob"></span>
             <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
           </div>
         </section>
         <section class="skill">
@@ -435,9 +444,9 @@
           <div class="blobs">
             <span class="blob"></span>
             <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
           </div>
         </section>
         <section class="skill">
@@ -446,8 +455,8 @@
             <span class="blob"></span>
             <span class="blob"></span>
             <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
           </div>
         </section>
         <section class="skill">
@@ -456,8 +465,8 @@
             <span class="blob"></span>
             <span class="blob"></span>
             <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
           </div>
         </section>
         <section class="skill">
@@ -466,8 +475,8 @@
             <span class="blob"></span>
             <span class="blob"></span>
             <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
           </div>
         </section>
         <section class="skill">
@@ -476,8 +485,8 @@
             <span class="blob"></span>
             <span class="blob"></span>
             <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
           </div>
         </section>
         <section class="skill">
@@ -485,9 +494,9 @@
           <div class="blobs">
             <span class="blob"></span>
             <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
           </div>
         </section>
       </div>
@@ -498,10 +507,10 @@
           <p class="skill-text">GIT</p>
           <div class="blobs">
             <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
           </div>
         </section>
         <section class="skill">
@@ -509,9 +518,9 @@
           <div class="blobs">
             <span class="blob"></span>
             <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
           </div>
         </section>
         <section class="skill">
@@ -520,18 +529,18 @@
             <span class="blob"></span>
             <span class="blob"></span>
             <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
           </div>
         </section>
         <section class="skill">
           <p class="skill-text">bash / zsh</p>
           <div class="blobs">
             <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
           </div>
         </section>
         <section class="skill">
@@ -539,9 +548,9 @@
           <div class="blobs">
             <span class="blob"></span>
             <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
           </div>
         </section>
         <section class="skill">
@@ -549,16 +558,15 @@
           <div class="blobs">
             <span class="blob"></span>
             <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
           </div>
         </section>
       </div>
     </div>
     </div>
-  </section>
-  <footer class="footer">
+    <footer class="footer">
     <div class="waves">
       <div class="wave" id="wave1"></div>
       <div class="wave" id="wave2"></div>
@@ -581,4 +589,18 @@
     </ul>
     <p>&copy; {{ new Date().getFullYear() }} Noman Jabbar </p>
   </footer>
+  </section>
 </template>
+
+<script setup>
+    const getAge = (dateString) => {
+      var today = new Date();
+      var birthDate = new Date(dateString);
+      var age = today.getFullYear() - birthDate.getFullYear();
+      var m = today.getMonth() - birthDate.getMonth();
+      if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+          age--;
+      }
+      return age;
+    }
+</script>
