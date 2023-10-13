@@ -8,7 +8,7 @@
   
     <div class="profile qual full-qual" id="pro">
       <h2 class="box">My Profile</h2>
-      <img class="avatar" src="me.jpg" alt="picture of the author.">
+      <img class="avatar" src="./public/me.jpg" alt="picture of the author.">
       <p>
         Greetings! My name is Noman Jabbar, a dedicated {{ getAge("1999/06/17") }} year old born in Amsterdam with a deep-rooted passion for Software Engineering.
       </p>
