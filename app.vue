@@ -604,3 +604,7 @@
       return age;
     }
 </script>
+
+<style>
+  @import '~/assets/scss/main.scss';
+</style>
