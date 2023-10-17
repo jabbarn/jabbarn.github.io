@@ -1,7 +1,13 @@
 <template>
   <section>
     <header>
-      <h1>Noman Jabbar</h1>
+      <h1>Noman Jabbar | Software Developer</h1>
+      <div class="buttons">
+        <!-- heroicons-solid:sun  heroicons-solid:moon -->
+        <a href="mailto:nomanjabbar1999@gmail.com?SUBJECT=Hi there 👋"><Icon name="octicon:mail-24" size="2em"/></a>
+        <a target="_blank" href="https://www.linkedin.com/in/njabbar/"><Icon name="bxl:linkedin" size="2em"/></a>
+        <a target="_blank" href="https://github.com/jabbarn"><Icon name="uil:github" size="2em"/></a>
+      </div>
     </header>
   
     <hr style="border-width: 2px;"/>
@@ -21,6 +27,14 @@
       <p>
         I am ready to leverage my experience and enthusiasm to excel in my next role, contributing effectively to organizational goals aswell as my own personal goals. One personal goal being to gain more experience in languages such as Rust, C++ and Clojure.
       </p>
+      <br>
+      <div class="additional-info">
+        <p>To find more about me:</p>
+        <p>Check out my <strong>Linkedin</strong>: <a href="https://www.linkedin.com/in/njabbar/">https://www.linkedin.com/in/njabbar/</a></p>
+        <p>Check out my <strong>Github</strong>: <a href="https://github.com/jabbarn">https://github.com/jabbarn</a></p>
+        <p>Or just shoot me up with an <strong>email</strong> on nomanjabbar1999@gmail.com</p>
+      <br>
+      </div>
     </div>
 
     <div class="xp qual full-qual">
