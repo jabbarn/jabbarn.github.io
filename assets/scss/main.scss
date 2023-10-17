@@ -10,11 +10,25 @@ $blue: #2196a7;
 $darkBlue: #307982;
 $darkestBlue: #215961;
 $white: #FFF;
+
+:root {
+  filter: invert(100%);
+
+  img {
+    filter: invert(100%);
+  }
+}
+div.additional-info {
+  display: none;
+}
 body {
   background-color: $dark;
   color: $lightestBlue;
   font-family: "Bitter", Helvetica;
 }
+
+// overrides the default styling
+a { color: inherit; } 
 
 ul li {
   padding-top: .5em; 
@@ -44,6 +58,15 @@ h3.line {
 header {
   overflow: hidden;
   margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  div.buttons {
+    svg {
+      padding: 0 .5em;
+    }
+  }
 }
 
 .wrap {
@@ -694,5 +717,14 @@ div.skills-container {
   }
   100% {
     background-positon-x: 0px;
+  }
+}
+
+@media print {
+  footer.footer {
+    display: none;
+  }
+  div.additional-info {
+    display: block;
   }
 }
