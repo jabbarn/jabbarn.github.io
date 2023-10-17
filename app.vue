@@ -4,9 +4,22 @@
       <h1>Noman Jabbar | Software Developer</h1>
       <div class="buttons">
         <!-- heroicons-solid:sun  heroicons-solid:moon -->
-        <a href="mailto:nomanjabbar1999@gmail.com?SUBJECT=Hi there 👋"><Icon name="octicon:mail-24" size="2em"/></a>
-        <a target="_blank" href="https://www.linkedin.com/in/njabbar/"><Icon name="bxl:linkedin" size="2em"/></a>
-        <a target="_blank" href="https://github.com/jabbarn"><Icon name="uil:github" size="2em"/></a>
+        <a href="mailto:nomanjabbar1999@gmail.com?SUBJECT=Hi there 👋">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon" style="" width="2em" height="2em" viewBox="0 0 24 24" data-v-9c34c54e="">
+            <path fill="currentColor" d="M1.75 3h20.5c.966 0 1.75.784 1.75 1.75v14a1.75 1.75 0 0 1-1.75 1.75H1.75A1.75 1.75 0 0 1 0 18.75v-14C0 3.784.784 3 1.75 3ZM1.5 7.412V18.75c0 .138.112.25.25.25h20.5a.25.25 0 0 0 .25-.25V7.412l-9.52 6.433c-.592.4-1.368.4-1.96 0Zm0-2.662v.852l10.36 7a.25.25 0 0 0 .28 0l10.36-7V4.75a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"></path>
+          </svg>
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/njabbar/">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon" style="" width="2em" height="2em" viewBox="0 0 24 24" data-v-9c34c54e="">
+            <circle cx="4.983" cy="5.009" r="2.188" fill="currentColor"></circle>
+            <path fill="currentColor" d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118c1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783c-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path>
+          </svg>
+        </a>
+        <a target="_blank" href="https://github.com/jabbarn">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon" style="" width="2em" height="2em" viewBox="0 0 24 24" data-v-9c34c54e="">
+            <path fill="currentColor" d="M12 2.247a10 10 0 0 0-3.162 19.487c.5.088.687-.212.687-.475c0-.237-.012-1.025-.012-1.862c-2.513.462-3.163-.613-3.363-1.175a3.636 3.636 0 0 0-1.025-1.413c-.35-.187-.85-.65-.013-.662a2.001 2.001 0 0 1 1.538 1.025a2.137 2.137 0 0 0 2.912.825a2.104 2.104 0 0 1 .638-1.338c-2.225-.25-4.55-1.112-4.55-4.937a3.892 3.892 0 0 1 1.025-2.688a3.594 3.594 0 0 1 .1-2.65s.837-.262 2.75 1.025a9.427 9.427 0 0 1 5 0c1.912-1.3 2.75-1.025 2.75-1.025a3.593 3.593 0 0 1 .1 2.65a3.869 3.869 0 0 1 1.025 2.688c0 3.837-2.338 4.687-4.563 4.937a2.368 2.368 0 0 1 .675 1.85c0 1.338-.012 2.413-.012 2.75c0 .263.187.575.687.475A10.005 10.005 0 0 0 12 2.247Z"></path>
+          </svg>
+        </a>
       </div>
     </header>
   
