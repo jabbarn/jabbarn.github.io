@@ -510,13 +510,14 @@ div.skills-container {
     section.skill {
       overflow: auto;
       margin-bottom: 0;
-      width: 200px;
+      width: 220px;
       display: flex;
       align-items: center;
       justify-content: space-between;
     
       p.skill-text {
         float: left;
+        font-size: 14px;
         max-width: 50%;
         margin: 0;
         word-break: break-word;
@@ -609,7 +610,7 @@ div.skills-container {
   background: #3586ff;
   min-height: 100px;
   padding: 20px 50px;
-  margin-top: 100px;
+  margin-top: 125px;
   display: flex;
   justify-content: center;
   align-items: center;
