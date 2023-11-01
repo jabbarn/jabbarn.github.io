@@ -548,6 +548,19 @@
             <span class="blob filled"></span>
           </div>
         </section>
+        <section class="skill">
+          <p class="skill-text">Svelte</p>
+          <div class="blobs">
+            <span class="blob"></span>
+            <span class="blob"></span>
+            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+          </div>
+        </section>
+        
+      </div>
+      <div class="skills">
         <h3 class="line">Languages</h3>
           <hr/>
         <section class="skill">
@@ -580,8 +593,6 @@
             <span class="blob filled"></span>
           </div>
         </section>
-      </div>
-      <div class="skills">
         <h3 class="line">Miscellaneous</h3>
           <hr/>
         <section class="skill">
