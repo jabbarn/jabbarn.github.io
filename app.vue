@@ -236,40 +236,6 @@
       <br/>
       <div class="skills-container">
       <div class="skills">
-        <h3 class="line">Languages</h3>
-          <hr/>
-        <section class="skill">
-          <p class="skill-text">Dutch</p>
-          <div class="blobs">
-            <span class="blob filled"></span>
-            <span class="blob filled"></span>
-            <span class="blob filled"></span>
-            <span class="blob filled"></span>
-            <span class="blob filled"></span>
-          </div>
-        </section>
-        <section class="skill">
-          <p class="skill-text">English</p>
-          <div class="blobs">
-            <span class="blob"></span>
-            <span class="blob filled"></span>
-            <span class="blob filled"></span>
-            <span class="blob filled"></span>
-            <span class="blob filled"></span>
-          </div>
-        </section>
-        <section class="skill">
-          <p class="skill-text">Urdu</p>
-          <div class="blobs">
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob filled"></span>
-            <span class="blob filled"></span>
-          </div>
-        </section>
-      </div>
-      <div class="skills">
           <h3 class="line">Software Languages</h3>
           <hr/>
           <section class="skill">
@@ -404,6 +370,112 @@
         </section>
       </div>
       <div class="skills">
+        <h3 class="line">Test Frameworks</h3>
+        <hr/>
+        <section class="skill">
+          <p class="skill-text">Selenium</p>
+          <div class="blobs">
+            <span class="blob"></span>
+            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+          </div>
+        </section>
+        <section class="skill">
+          <p class="skill-text">Cypress</p>
+          <div class="blobs">
+            <span class="blob"></span>
+            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+          </div>
+        </section>
+        <section class="skill">
+          <p class="skill-text">Jasmine</p>
+          <div class="blobs">
+            <span class="blob"></span>
+            <span class="blob"></span>
+            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+          </div>
+        </section>
+        <section class="skill">
+          <p class="skill-text">Jest</p>
+          <div class="blobs">
+            <span class="blob"></span>
+            <span class="blob"></span>
+            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+          </div>
+        </section>
+        <section class="skill">
+          <p class="skill-text">Karma</p>
+          <div class="blobs">
+            <span class="blob"></span>
+            <span class="blob"></span>
+            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+          </div>
+        </section>
+        <section class="skill">
+          <p class="skill-text">JUnit</p>
+          <div class="blobs">
+            <span class="blob"></span>
+            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+          </div>
+        </section>
+        <section class="skill">
+          <p class="skill-text">PHPUnit</p>
+          <div class="blobs">
+            <span class="blob"></span>
+            <span class="blob"></span>
+            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+          </div>
+        </section>
+        <h3 class="line">Style Frameworks</h3>
+          <hr/>
+          <section class="skill">
+          <p class="skill-text">Bootstrap</p>
+          <div class="blobs">
+            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+          </div>
+        </section>
+        <section class="skill">
+          <p class="skill-text">Material UI</p>
+          <div class="blobs">
+            <span class="blob"></span>
+            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+          </div>
+        </section>
+        <section class="skill">
+          <p class="skill-text">Bulma</p>
+          <div class="blobs">
+            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+          </div>
+        </section>
+      </div>
+      <div class="skills">
         <h3 class="line">Frameworks</h3>
           <hr/>
         <section class="skill">
@@ -477,7 +549,7 @@
           </div>
         </section>
         <section class="skill">
-          <p class="skill-text">Selenium</p>
+          <p class="skill-text">Svelte</p>
           <div class="blobs">
             <span class="blob"></span>
             <span class="blob"></span>
@@ -486,48 +558,41 @@
             <span class="blob filled"></span>
           </div>
         </section>
-        <section class="skill">
-          <p class="skill-text">Jasmine</p>
-          <div class="blobs">
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob filled"></span>
-            <span class="blob filled"></span>
-          </div>
-        </section>
-        <section class="skill">
-          <p class="skill-text">Jest</p>
-          <div class="blobs">
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob filled"></span>
-            <span class="blob filled"></span>
-          </div>
-        </section>
-        <section class="skill">
-          <p class="skill-text">Karma</p>
-          <div class="blobs">
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob filled"></span>
-            <span class="blob filled"></span>
-          </div>
-        </section>
-        <section class="skill">
-          <p class="skill-text">JUnit</p>
-          <div class="blobs">
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob filled"></span>
-            <span class="blob filled"></span>
-            <span class="blob filled"></span>
-          </div>
-        </section>
+        
       </div>
       <div class="skills">
+        <h3 class="line">Languages</h3>
+          <hr/>
+        <section class="skill">
+          <p class="skill-text">Dutch</p>
+          <div class="blobs">
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+          </div>
+        </section>
+        <section class="skill">
+          <p class="skill-text">English</p>
+          <div class="blobs">
+            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+          </div>
+        </section>
+        <section class="skill">
+          <p class="skill-text">Urdu</p>
+          <div class="blobs">
+            <span class="blob"></span>
+            <span class="blob"></span>
+            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+          </div>
+        </section>
         <h3 class="line">Miscellaneous</h3>
           <hr/>
         <section class="skill">
@@ -586,6 +651,36 @@
             <span class="blob"></span>
             <span class="blob"></span>
             <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+          </div>
+        </section>
+        <section class="skill">
+          <p class="skill-text">OOP</p>
+          <div class="blobs">
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+          </div>
+        </section>
+        <section class="skill">
+          <p class="skill-text">FP</p>
+          <div class="blobs">
+            <span class="blob"></span>
+            <span class="blob"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+            <span class="blob filled"></span>
+          </div>
+        </section>
+        <section class="skill">
+          <p class="skill-text">Design Patterns</p>
+          <div class="blobs">
+            <span class="blob"></span>
+            <span class="blob"></span>
+            <span class="blob"></span>
             <span class="blob filled"></span>
             <span class="blob filled"></span>
           </div>
