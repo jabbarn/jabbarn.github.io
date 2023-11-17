@@ -46,7 +46,8 @@
         <p>Check out my <strong>Linkedin</strong>: <a href="https://www.linkedin.com/in/njabbar/">https://www.linkedin.com/in/njabbar/</a></p>
         <p>Check out my <strong>Github</strong>: <a href="https://github.com/jabbarn">https://github.com/jabbarn</a></p>
         <p>Or just shoot me up with an <strong>email</strong> on nomanjabbar1999@gmail.com</p>
-      <br>
+        <br>
+        <br>
       </div>
     </div>
 
@@ -133,9 +134,29 @@
           <div class="year">2024</div>
         </div>
       </div>
-      <span></span>
     </div>
-    
+    <div class="projects qual full-qual">
+      <h2 class="box" id="projects">Projects</h2>
+      <div class="project-details">
+        <p>During the 2 years of experience gained through internships, several projects stand out: <b>Effect Force</b> and <b>ITSM Dashboard</b>.</p>
+        <p>
+          <b>Effect Force</b> is part of the Effect Network platform, enabling online users to perform microtasks on the EOS blockchain and being paid out through Smart Contracts.
+          What my tasks were during this project was to help implement front end interface (build on the Vue Framework called Nuxt 2), The Effect SDK (build on Typescript) and the EOS Smart Contracts (Written in C++ and tested in Clojure).
+          Besides Effect Force, I have also contributed to Effect DAO, A Decentralized Autonomous Organisation, which helps keep tracks of the decisions made within Effect Network. Effect DAO was also made in Nuxt 2.
+        </p>
+        <p>
+          <b>ITSM Dashboard</b> is a Power BI Dashboard that shows insight into Incident Management of Zeeman TextielSupers.
+          Showing valuable metrics around incindents taking place, what type of incident and relevant information.
+          During this project I have learnt to work with DAX, also known as Data Analysis Expressions.
+          Besides DAX I also have made the design and layout of the dashboard from scratch, while being inspired by the other Power BI Reports used by Zeeman TextielSupers.
+          This project is tightly connected with the thesis I wrote for the Bachelor study HBO-ICT Software Engineering.
+        </p>
+        <p>
+          Besides These projects, I have also worked on school-based projects. These projects were made during my bachelors study HBO-ICT Software Engineering. One of these projects was tied to the subject Algorithms and Data Structures, showcasing different ways to iterate over items in Java, Describing big O notation in Time Complexity. Furthermore showcasing different Data Structures such as PriorityQueues and LinkedLists.
+          Another school project was a simple full-stack application with the frontend written in Angular 9, and the backend server being written in Spring Boot (Java). This Application showcased events being created, edited, viewed and deleted through a web interface. This information was stored in a MySQL database that was used by said backend server. 
+        </p>
+      </div> 
+    </div>
     <div class="edu qual third-qual">
       <h2 class="box" id="edu">Education</h2>
       <span class="uni">
@@ -230,7 +251,12 @@
           <li>Going on short walks</li>
         </ul>
     </div>
-      
+    <div class="additional-info">
+      <br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br>
+    </div>
     <div class="sknex">
       <h2 class="box" id="s&e">Skills &amp; Expertise</h2>
       <br/>
